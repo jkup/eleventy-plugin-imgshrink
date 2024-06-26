@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/jkup/eleventy-plugin-imgshrink/issues"
   },
-  "homepage": "https://github.com/jkup/eleventy-plugin-imgshrink#readme"
+  "homepage": "https://github.com/jkup/eleventy-plugin-imgshrink#readme",
+  "dependencies": {
+    "imgshrink": "^0.0.3"
+  }
 }
