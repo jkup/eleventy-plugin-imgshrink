@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/jkup/eleventy-plugin-imgshrink#readme",
   "dependencies": {
-    "imgshrink": "^0.0.3"
+    "imgshrink": "^0.0.4"
   }
 }

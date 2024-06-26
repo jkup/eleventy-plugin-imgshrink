@@ -12,7 +12,7 @@ module.exports = (eleventyConfig, options = {}) => {
     const imageFiles = files.filter(isImage);
 
     for (const file of imageFiles) {
-      await imgshrink(path.join(outputDir, file));
+      await imgshrink.optimizeImage(path.join(outputDir, file));
     }
     console.log("Image shrinking completed.");
   });
