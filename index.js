@@ -1,13 +1,14 @@
 const { promises: fs } = require("fs");
 const path = require("path");
 
-const imgshrink = require("imgShrink");
-
 module.exports = (eleventyConfig, options = {}) => {
   const outputDir = options.outputDir || "dist";
 
   eleventyConfig.on("afterBuild", async () => {
     console.log("Image shrinking started...");
+
+    const imgshrink = await import("imgShrink");
+
     const files = await getFiles(outputDir);
     const imageFiles = files.filter(isImage);
 

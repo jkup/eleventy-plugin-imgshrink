@@ -1,6 +1,6 @@
 {
   "name": "eleventy-plugin-imgshrink",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Compress the images in your eleventy site",
   "main": "index.js",
   "scripts": {
